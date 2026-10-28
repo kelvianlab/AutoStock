@@ -1,0 +1,21 @@
+# clasp, the Google Apps Script CLI.
+# .clasprc.json holds an OAuth token for the Google account that owns the
+# script, so committing it hands over access to that account's Drive.
+.clasp.json
+.clasprc.json
+
+# Node, if clasp or a formatter is ever installed here
+node_modules/
+package-lock.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local scratch files that are not part of the script
+*.log
+*.bak
+*.tmp
